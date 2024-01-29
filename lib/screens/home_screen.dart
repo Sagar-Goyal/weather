@@ -85,7 +85,9 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
         appBar: AppBar(
           backgroundColor: const Color(0xFF1F1F1F),
           leading: IconButton(
-            onPressed: () {},
+            onPressed: () {
+              // TODO : Add some functionality here
+            },
             icon: const Icon(Icons.menu),
             color: Colors.white,
           ),
@@ -114,7 +116,9 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
           ),
           actions: <Widget>[
             IconButton(
-              onPressed: () {},
+              onPressed: () {
+                // TODO : Add some functionality here
+              },
               icon: const Icon(
                 Icons.more_vert,
               ),

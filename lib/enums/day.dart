@@ -1,0 +1,1 @@
+enum Day {today, tommorow}
